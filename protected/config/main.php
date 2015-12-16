@@ -68,10 +68,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=a0924191420',
+			'connectionString' => 'mysql:host=121.127.231.138;dbname=a0924191420',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'root',
+			'username' => 'a0924191420',
+			'password' => '24088712',
 			'charset' => 'utf8',
 			'tablePrefix'=>'ouyang_',
 		),
