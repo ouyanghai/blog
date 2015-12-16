@@ -3279,3 +3279,162 @@ Stack trace:
 REQUEST_URI=/assets/public/js/silder.js
 HTTP_REFERER=http://local.ouyanghai.com.cn/index.html
 ---
+2015/12/16 13:49:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aseets".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('aseets')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/aseets
+---
+2015/12/16 13:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 13:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 13:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "local.ouyanghai.com.cn/assets/uploads/album/cover/61fda77a3b.jpg".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('local.ouyanghai...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/local.ouyanghai.com.cn/assets/uploads/album/cover/61fda77a3b.jpg
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 13:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "local.ouyanghai.com.cn/assets/uploads/album/cover/767a5b46bd.jpg".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('local.ouyanghai...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/local.ouyanghai.com.cn/assets/uploads/album/cover/767a5b46bd.jpg
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 13:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "local.ouyanghai.com.cn/assets/uploads/album/cover/8de3879df2.jpg".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('local.ouyanghai...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/local.ouyanghai.com.cn/assets/uploads/album/cover/8de3879df2.jpg
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 13:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 13:54:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 14:00:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\blog\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\blog\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/public')
+#3 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/public/
+---
+2015/12/16 14:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\blog\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\blog\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/public')
+#3 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/public/
+---
+2015/12/16 14:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\blog\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\blog\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/public')
+#3 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/public/
+---
+2015/12/16 14:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\blog\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\blog\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/public')
+#3 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/public/
+---
+2015/12/16 14:01:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\blog\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\blog\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/public')
+#3 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/public/
+---
+2015/12/16 14:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\blog\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\blog\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/public')
+#3 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/public/
+---
+2015/12/16 14:02:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\wwwroot\blog\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\wwwroot\blog\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/public')
+#3 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/public/
+---
+2015/12/16 14:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 14:02:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
