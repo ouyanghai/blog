@@ -3438,3 +3438,651 @@ Stack trace:
 REQUEST_URI=/assets/public/js/silder.js
 HTTP_REFERER=http://local.ouyanghai.com.cn/
 ---
+2015/12/16 14:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 14:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 14:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 14:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:00:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:00:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:14:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:22:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:23:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:23:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:24:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:24:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:25:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:25:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:27:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:28:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:28:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:35:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:35:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:51:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:51:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:53:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:56:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:56:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/16 15:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
