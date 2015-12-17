@@ -4086,3 +4086,30 @@ Stack trace:
 REQUEST_URI=/assets/public/js/js.js
 HTTP_REFERER=http://local.ouyanghai.com.cn/
 ---
+2015/12/17 09:17:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/silder.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/silder.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/17 09:17:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/public/js/js.js".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/public/j...')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/assets/public/js/js.js
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2015/12/17 09:17:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
