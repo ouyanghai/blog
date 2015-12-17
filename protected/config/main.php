@@ -48,7 +48,7 @@ return array(
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			'showScriptName'=>false,
+			'showScriptName'=>true,
 			'rules'=>array(
 				'index'=>array('index/index','urlSuffix'=>'.html'),
 				'art__<aid:\d+>'=>array('art/index','urlSuffix'=>'.html'),
