@@ -6,9 +6,8 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
-	'defaultController'=>'index',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'The blog of ouyang',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -18,18 +17,18 @@ return array(
 		'application.models.*',
 		'application.components.*',
 	),
-
+	'defaultController'=>'web',
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
+		'admin',
 		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'123',
-			// If removed, Gii defaults to localhost only. Edit carefully to taste.
+			'password'=>'ouyang_blog',
+		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
 		
-		'admin'
 	),
 
 	// application components
@@ -38,57 +37,37 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		'Image'=>array(
-				'class'=>'ext.Image.CImage',
-			),
-		'cache'=>array(
-				'class'=>'system.caching.CFileCache',
-			),
 		// uncomment the following to enable URLs in path-format
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
-			'showScriptName'=>true,
+			'showScriptName'=>false,
 			'rules'=>array(
-				'index'=>array('index/index','urlSuffix'=>'.html'),
-				'art__<aid:\d+>'=>array('art/index','urlSuffix'=>'.html'),
-				'forum__<cid:\d+>'=>array('forum/index','urlSuffix'=>'.html'),
-				'art_<id:\d+>'=>array('index/art','urlSuffix'=>'.html'),
-/*				
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',*/
+				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
 		
 	/*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
-		),*/
+		),
 		// uncomment the following to use a MySQL database
-		
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=a0924191420',
-			'emulatePrepare' => true,
-			'username' => 'a0924191420',
-			'password' => '24088712',
-			'charset' => 'utf8',
-			'tablePrefix'=>'ouyang_',
-		),
-		/*
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=a0924191420',
-			'emulatePrepare' => true,
-			'username' => 'a0924191420',
-			'password' => '24088712',
-			'charset' => 'utf8',
-			'tablePrefix'=>'bbs_',
-		),
 		*/
+		'db'=>array(
+			'connectionString' => 'mysql:host=localhost;dbname=ouyang',
+			'emulatePrepare' => true,
+			'username' => 'root',
+			'password' => 'root',
+			'charset' => 'utf8',
+			'tablePrefix' => 'ou_'
+		),
+		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
-			'errorAction'=>'site/error',
-		),
+            'errorAction'=>'site/error',
+        ),
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(

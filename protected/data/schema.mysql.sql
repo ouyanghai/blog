@@ -1,28 +1,40 @@
-CREATE TABLE tbl_user (
+CREATE DATABASE IF NOT EXISTS ouyang;
+USE ouyang;
+
+CREATE TABLE ou_user (
     id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(128) NOT NULL,
+    username VARCHAR(128) NOT NULL unique,
     password VARCHAR(128) NOT NULL,
-    email VARCHAR(128) NOT NULL
+    qq VARCHAR(12) NOT NULL DEFAULT 0,
+    tel VARCHAR(11) NOT NULL DEFAULT 0,
+    level TINYINT(1) NOT NULL DEFAULT 1,
+    email VARCHAR(128) NOT NULL,
+    created DATETIME NOT NULL,
+    updated DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00'
+);
+# password ouyang_blog
+INSERT into ou_user(username,password,created,level,email) values('ouyang','45e2663628ae6ba4c4491f79353686c2',now(),3,'1114374850@qq.com');
+
+CREATE TABLE ou_speak(
+	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	title VARCHAR(128) NOT NULL,
+	content TEXT,
+	created DATETIME NOT NULL,
+	updated DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+    praise INTEGER NOT NULL DEFAULT 0,
+    comment INTEGER NOT NULL DEFAULT 0,
+	pic VARCHAR(128) NOT NULL DEFAULT 'default.jpg'
 );
 
-INSERT INTO tbl_user (username, password, email) VALUES ('test1', 'pass1', 'test1@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test2', 'pass2', 'test2@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test3', 'pass3', 'test3@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test4', 'pass4', 'test4@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test5', 'pass5', 'test5@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test6', 'pass6', 'test6@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test7', 'pass7', 'test7@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test8', 'pass8', 'test8@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test9', 'pass9', 'test9@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test10', 'pass10', 'test10@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test11', 'pass11', 'test11@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test12', 'pass12', 'test12@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test13', 'pass13', 'test13@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test14', 'pass14', 'test14@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test15', 'pass15', 'test15@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test16', 'pass16', 'test16@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test17', 'pass17', 'test17@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test18', 'pass18', 'test18@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test19', 'pass19', 'test19@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test20', 'pass20', 'test20@example.com');
-INSERT INTO tbl_user (username, password, email) VALUES ('test21', 'pass21', 'test21@example.com');
+CREATE TABLE ou_album(
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(64) NOT NULL,
+    created DATETIME NOT NULL,
+    updated DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',
+    pic VARCHAR(128) NOT NULL DEFAULT 'default.jpg'
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE ou_albumpic(
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    aid INTEGER NOT NULL,
+    pic VARCHAR(128) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

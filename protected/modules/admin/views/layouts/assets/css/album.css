@@ -1,0 +1,12 @@
+.album_create{
+	margin-left:10px;
+	margin-top:10px;
+}
+#album_ul{
+	margin-left:10px;
+	margin-top:10px;
+}
+#album_ul li{
+	list-style: none;
+	margin-top:10px;
+}

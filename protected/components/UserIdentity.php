@@ -16,18 +16,16 @@ class UserIdentity extends CUserIdentity
 	 * @return boolean whether authentication succeeds.
 	 */
 	public function authenticate()
-	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
+	{	
+
+		$user = User::model()->find('username=:username and password=:password',array(':username'=>$this->username,':password'=>md5($this->password)));
+		if($user == null){
+			$this->errorCode = self::ERROR_USERNAME_INVALID;
+		}
+		else{
+			Yii::app()->session['level'] = $user->level;
 			$this->errorCode=self::ERROR_NONE;
+		}
 		return !$this->errorCode;
 	}
 }

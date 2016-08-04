@@ -1,58 +1,61 @@
-<h2>会员管理</h2> 
-
-<table id="rounded-corner">
-    <thead>
-    	<tr>
-        	<th></th>
-            <th>会员ID</th>
-            <th>用户名</th>
-            <th>用户等级</th>
-            <th>注册时间</th>
-            <th>注册IP</th>
-            <th>编辑</th>
-            <th>删除</th>
-        </tr>
-    </thead>
-        <tfoot>
-    	<tr>
-        	<td colspan="12"><?php  $this->widget('CLinkPager',array(
-        		'pages'=>$pager,
-        		'prevPageLabel'=>'上一页',
-        		'nextPageLabel'=>'下一页',
-        		'firstPageLabel'=>'首页',
-        		'lastPageLabel'=>'尾页',
-        		'header'=>'',
-        		'footer'=>'会员记录',
-        	)) ?></td>
-        </tr>
-    </tfoot>
-    <tbody>
-    <?php foreach($data as $user):?>
-    	<tr class="odd">
-        	<td><input type="checkbox" name="" /></td>
-            <td> <?php echo $user->id;  ?></td>
-            <td><?php  echo $user->username; ?></td>
-            <td><?php  echo $user->level?></td>
-            <td><?php echo date("Y-M-D H:i:s",$user->rtime);  ?></td>
-            <td><?php echo long2ip($user->rip);  ?></td>
-            <td><a href="<?php echo $this->createUrl('profile/mod',array('id'=>$user->id)) ?>"><img src="<?php echo Yii::app()->request->baseurl ?>/assets/admin/images/edit.png" alt="" title="" border="0" /></a></td>
-            <td><a href="<?php echo $this->createUrl('user/delete',array('id'=>$user->id)) ?>"><img src="<?php echo Yii::app()->request->baseurl ?>/assets/admin/images/trash.gif" alt="" title="" border="0" /></a></td>
-        </tr>
-    	
-  <?php endforeach; ?>
-        
-    </tbody>
+<script type="text/javascript" src="<?php echo $this->assets['module']; ?>/js/userManage.js"></script>
+<div id='search_module'>
+	<form id='search_form' method='post' action='index'>
+	<ul>
+		<li>ID:<input type="text" name='id'/></li>
+		<li>用户名:<input type="text" name='username'/></li>
+		<li><input type='submit' value="确定" /></li>
+	</ul>
+	</form>
+</div>
+<?php if(!empty($data)){ ?>
+<table class="itemTable">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>名字</th>
+			<th>权限</th>
+			<th>创建时间</th>
+			<th>更新时间</th>
+			<th>操作</th>
+		</tr>
+	</thead>
+	<tbody>
+		<?php foreach($data as $val){ ?>
+			<tr>
+				<?php foreach($val as $v){ if(!empty($v)){?>
+					<td><?php echo $v; ?></td>
+				<?php }} ?>
+				<td>
+					<a id="user_del" href="javascript:userDel(<?php echo $val->id; ?>);">删除</a>
+					<font color="blue">|</font>
+					<a href="javascript:getUserInfo(<?php echo $val->id; ?>);">修改</a>
+				</td>
+			</tr>
+		<?php } ?>
+		<tr>
+			<td colspan='6'>
+				共<?php echo $pages->itemCount;?>条记录,当前第<?php echo $pages->currentPage+1;?>/<?php echo $pages->pageCount; ?>页
+				<?php $this->widget('CLinkPager',array(
+					'header' => '',
+					'firstPageLabel' => '首页',
+					'lastPageLabel' => '末页',
+					'prevPageLabel' => '上一页',
+					'nextPageLabel' => '下一页',
+					'pages' => $pages,
+					'maxButtonCount' => 5,
+				)); ?>
+			</td>
+		</tr>
+	</tbody>
 </table>
-
-	<div class="form_sub_buttons">
-	<a href="#" class="button green">Edit selected</a>
-    <a href="#" class="button red">Delete selected</a>
-    </div>
-     <div style="color:red;text-align:center">
-                <?php 
-       
-                     if(Yii::app()->user->hasFlash('info')){
-                        echo Yii::app()->user->getFlash('info');
-                     }
-                 ?>
-           </div>
+<?php }else{ ?>
+	<div class='itemTable'>
+		<font color='red'>没有搜索到相应数据！</font>
+	</div>
+<?php } ?>
+<div id="mask"></div>
+<div id="user_manage">
+	<div class='close_menu'><a href="javascript:close();" class='close_btn'>X</a></div>
+	<iframe id="user_iframe" src=""></iframe>	
+</div>

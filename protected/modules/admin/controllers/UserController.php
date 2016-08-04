@@ -1,85 +1,92 @@
 <?php
-class UserController extends Common{
+class UserController extends AdminController{
 
-
-	public function actionModPass(){
-		$usermodel=User::Model();
-		$usermodel->scenario='modepass';
-		$usermodel->username=Yii::app()->session['admin']['username'];
-
-		if(!empty($_POST['User'])){
-			$usermodel->attributes=$_POST['User'];
-			if($usermodel->validate()){
-				$result=$usermodel->updateAll(array('password'=>md5($_POST['User']['newpass'])),'username=:user',array(":user"=>$usermodel->username));
-				if($result>0){
-					Yii::app()->user->setFlash('info','密码修改成功');
-				}else{
-					Yii::app()->user->setFlash('info','密码修改失败');
-				}
-			}
-		}
-		$this->render('modepass',array('model'=>$usermodel));
-	}
-
-	public function actionAdd(){
-		//$usermodel=User::Model();
-		 $usermodel=new User;
-		if(!empty($_POST['User'])){
-			$usermodel->username=$_POST['User']['username'];
-			$usermodel->password=md5($_POST['User']['password']);
-			$usermodel->repass=md5($_POST['User']['repass']);
-			$usermodel->scenario='add';
-			if($usermodel->validate()){
-				$usermodel->rtime=time();
-				$usermodel->rip=ip2long($_SERVER['REMOTE_ADDR']);
-				if($usermodel->save()){
-
-					$id=$usermodel->getPrimaryKey();
-					$profile=new profile;
-					$profile->uid=$id;
-					if($profile->save(false)){
-						Yii::app()->user->setFlash('info','添加用户成功');
-					}
-					else{
-					Yii::app()->user->setFlash('info','添加用户失败');	
-				}
-				
-				}
-			}
-		}
-		$usermodel->username="";
-		$usermodel->password="";
-		$usermodel->repass="";
-		$this->render('add',array('model'=>$usermodel));
-	}
-
+	//用户列表
 	public function actionIndex(){
 		
-		
-		$model=User::model();
-		/*start 分页*/
-		$criteria=new CDbCriteria();
-		$total=$model->count($criteria);
-		
-		$pager=new CPagination($total);
-		$pager->pageSize=5;
-		$pager->applyLimit($criteria);
-		/*end 分页*/
-		$data=$model->findAll($criteria);
-		
+		$criteria = new CDbCriteria;
+		$criteria->select = 'id,username,level,created,updated';
+		if(!empty($_POST['id'])){
+			$criteria->addCondition('id='.$_POST['id']);
+		}
+		if(!empty($_POST['username'])){
+			$criteria->addSearchCondition('username',$_POST['username']);
+		}
+		$dataProvider = new CActiveDataProvider('User',array(
+				'criteria' => $criteria,
+				'pagination' => array('pageSize'=>20,'pageVar'=>'page'),
+			));
 
-		$this->render('index',array('data'=>$data,'pager'=>$pager));
+		$this->render('index',array(
+			'data'=>$dataProvider->getData(),
+			'pages' => $dataProvider->getPagination(),
+		));
+	}
+	//用户管理
+	public function actionMod(){
+		$this->render('mod');
+	}
+	//用户管理处理修改的ajax请求
+	public function actionModPass(){
+		if(!empty($_POST)){
+			$command = Yii::app()->db->createCommand();
+			$sql = "select * from {{user}} where username like '{$_POST['username']}'";
+			$row = $command->setText($sql)->queryRow();
+			if(empty($row)){
+				echo json_encode('没有该用户');
+				exit;
+			}else{
+				if(empty($_POST['password'])){echo json_encode('没有输入密码');return;}
+				$res = $command->update('{{user}}',array('password'=>md5($_POST['password'])),"id={$row['id']}");
+				if($res){
+					echo json_encode(true);exit;
+				}
+			}
+		}
+		echo false;
+	}
+	//用户管理处理删除的ajax请求
+	public function actionDel(){
+		//ajax处理
+		if(isset($_POST['id'])){
+			/*
+			$sql = 'delete from {{user}} where id=:id';
+			$command = Yii::app()->db->createCommand();
+			$command->setText($sql);
+			$row = $command->execute(array(':id'=>$_GET['id']));
+			*/
+			$row = User::model()->deleteByPk($_POST['id']);
+			if($row){
+				echo json_encode('ok');
+			}
+		}
+		echo false;
+	}
+	//用户列表
+	public function actionGetUserInfo(){
+		$this->layout = '/layouts/blank';
+		if(isset($_GET['id'])){
+			$data = User::model()->findByPk($_GET['id']);
+			$this->render('userInfo',array('data'=>$data));	
+		}
+	}
+	
+	public function actionManage(){
+		if(isset($_POST['User']['id'])){
+			$model = User::model()->findByPk($_POST['User']['id']);
+			$model->attributes = $_POST['User'];
+			if($model->save()){
+				echo 'ok';
+			}else{
+				echo false;
+			}
+		}else{
+			echo '服务器没接收到数据';
+		}
 	}
 
-	public function actionDelete(){
-		$model=User::model();
-		if($model->deleteByPk($_GET['id'])){
-			Yii::app()->user->setFlash('info','删除成功');
-		}else{
-			Yii::app()->user->setFlash('info','删除失败');
-		}
-		$this->redirect(array('index'));
+	public function filters(){
+		return array('auth');
 	}
 }
-
 ?>
