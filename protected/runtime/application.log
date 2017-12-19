@@ -8640,3 +8640,62 @@ Stack trace:
 REQUEST_URI=/images/speak/1_2016-06-12_1d2ba36e220a9ba7f946a99fea1027ae.jpg
 HTTP_REFERER=http://local.ouyanghai.com.cn/admin/speak/index
 ---
+2017/06/27 15:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2017/06/27 15:23:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in D:\wwwroot\blog\framework\web\CController.php:483
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CController.php(270): CController->missingAction('admin')
+#1 D:\wwwroot\blog\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('web/admin')
+#3 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\wwwroot\blog\index.php(12): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin
+---
+2017/06/27 15:23:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main/admin".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('main/admin')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/main/admin
+---
+2017/07/06 14:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
+2017/12/19 09:39:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'ouyang'' in D:\wwwroot\blog\framework\db\CDbConnection.php:381
+Stack trace:
+#0 D:\wwwroot\blog\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 D:\wwwroot\blog\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 D:\wwwroot\blog\framework\base\CModule.php(387): CDbConnection->init()
+#3 D:\wwwroot\blog\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 D:\wwwroot\blog\protected\controllers\WebController.php(9): CModule->__get('db')
+#5 D:\wwwroot\blog\framework\web\CWebApplication.php(281): WebController->init()
+#6 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 D:\wwwroot\blog\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/
+---
+2017/12/19 09:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\wwwroot\blog\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\wwwroot\blog\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://local.ouyanghai.com.cn/
+---
